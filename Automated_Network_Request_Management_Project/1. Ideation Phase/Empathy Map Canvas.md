@@ -39,3 +39,11 @@ Centralized request information, automated notification, approval tracking and f
 ![Ideation Problem Overview](Images/Ideation_Problem_Overview.svg)
 
 *Conceptual phase illustration. Add genuine project evidence where required; this image is not a live ServiceNow screenshot.*
+
+
+
+## Project Canvas Visual
+
+![Empathy map canvas for the network requester](Images/Empathy_Map_Canvas.svg)
+
+![Brainstorming and prioritization](Images/Brainstorming_Prioritization.svg)
