@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+ <rect width="100%" height="100%" rx="24" fill="#f5f7fb"/>
+ <rect x="0" y="0" width="1200" height="116" rx="24" fill="#17365d"/>
+ <text x="54" y="52" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#ffffff">Brainstorming &amp; Idea Prioritization</text>
+ <text x="54" y="86" font-family="Arial,sans-serif" font-size="17" fill="#dbeafe">Automated Network Request Management System</text><rect x="54" y="145" width="1092" height="78" rx="13" fill="#ffffff" stroke="#9bb2cc" stroke-width="2"/>
+  <circle cx="94" cy="184" r="20" fill="#2874a6"/><text x="94" y="191" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">1</text>
+  <text x="132" y="176" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17365d">Manual request handling</text>
+  <text x="132" y="201" font-family="Arial,sans-serif" font-size="16" fill="#263746">Requests arrive through messages or informal channels; tracking is inconsistent.</text><rect x="54" y="250" width="1092" height="78" rx="13" fill="#eaf1f8" stroke="#9bb2cc" stroke-width="2"/>
+  <circle cx="94" cy="289" r="20" fill="#2874a6"/><text x="94" y="296" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">2</text>
+  <text x="132" y="281" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17365d">Centralized Service Catalog</text>
+  <text x="132" y="306" font-family="Arial,sans-serif" font-size="16" fill="#263746">Create a single request entry point with standard fields and categories.</text><rect x="54" y="355" width="1092" height="78" rx="13" fill="#ffffff" stroke="#9bb2cc" stroke-width="2"/>
+  <circle cx="94" cy="394" r="20" fill="#2874a6"/><text x="94" y="401" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">3</text>
+  <text x="132" y="386" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17365d">Approval and assignment flow</text>
+  <text x="132" y="411" font-family="Arial,sans-serif" font-size="16" fill="#263746">Route requests to the correct approver and network team using rules.</text><rect x="54" y="460" width="1092" height="78" rx="13" fill="#eaf1f8" stroke="#9bb2cc" stroke-width="2"/>
+  <circle cx="94" cy="499" r="20" fill="#2874a6"/><text x="94" y="506" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">4</text>
+  <text x="132" y="491" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17365d">Status visibility</text>
+  <text x="132" y="516" font-family="Arial,sans-serif" font-size="16" fill="#263746">Give requesters a traceable request number, status, and closure update.</text></svg>
