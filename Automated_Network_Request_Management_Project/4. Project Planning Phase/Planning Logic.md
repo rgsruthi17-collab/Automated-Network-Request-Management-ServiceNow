@@ -13,3 +13,9 @@
 
 ## Automation Flow
 Catalog submission → Get Catalog Variables → Create Record → Send Email → Ask for Approval → If Approved → Update Record.
+
+## Visual Reference
+
+![Project Planning Milestones](Images/Planning_Milestones.svg)
+
+*Conceptual phase illustration, not a live ServiceNow screenshot. Record actual test outcomes after running the tests in your instance.*
