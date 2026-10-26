@@ -46,3 +46,30 @@ A test request was submitted through the ServiceNow Service Portal. The request 
 ## Conclusion
 
 The project demonstrates how ServiceNow can automate a network-service request lifecycle and reduce manual processing by combining Service Catalog, conditional form behavior, centralized data storage, notifications, approvals, and Flow Designer automation.
+
+
+
+## Visual Project Gallery
+
+### Ideation
+![Brainstorming and prioritization](Automated_Network_Request_Management_Project/1.%20Ideation%20Phase/Images/Brainstorming_Prioritization.svg)
+
+![Empathy map canvas](Automated_Network_Request_Management_Project/1.%20Ideation%20Phase/Images/Empathy_Map_Canvas.svg)
+
+### Requirements
+![Network request data flow](Automated_Network_Request_Management_Project/2.%20Requirement%20Analysis/Images/Data_Flow_Diagram.svg)
+
+![Technology stack](Automated_Network_Request_Management_Project/2.%20Requirement%20Analysis/Images/Technology_Stack.svg)
+
+### Design, planning and testing
+![Problem solution fit](Automated_Network_Request_Management_Project/3.%20Project%20Design%20Phase/Problem%20-%20Solution%20Fit/Problem_Solution_Fit.svg)
+
+![Proposed solution](Automated_Network_Request_Management_Project/3.%20Project%20Design%20Phase/Proposed%20Solution/Proposed_Solution.svg)
+
+![Project plan](Automated_Network_Request_Management_Project/4.%20Project%20Planning%20Phase/Images/Project_Plan.svg)
+
+![Functional test matrix](Automated_Network_Request_Management_Project/5.%20Project%20Development%20Phase/Images/Functional_Test_Matrix.svg)
+
+![User acceptance testing](Automated_Network_Request_Management_Project/5.%20Project%20Development%20Phase/Images/User_Acceptance_Testing.svg)
+
+![Final report overview](Automated_Network_Request_Management_Project/6.%20Project%20Documentation/Images/Final_Report_Overview.svg)
