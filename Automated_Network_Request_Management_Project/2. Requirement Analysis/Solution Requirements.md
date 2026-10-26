@@ -16,3 +16,11 @@
 - Traceable approval status.
 - Maintainable ServiceNow configuration.
 - Reliable automation through Flow Designer.
+
+---
+
+## Visual Reference
+
+![Requirement Analysis](Images/Requirements_User_Flow.svg)
+
+*Figure: Requirement Analysis. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
