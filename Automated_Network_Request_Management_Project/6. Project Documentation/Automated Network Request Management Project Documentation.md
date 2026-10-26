@@ -19,3 +19,9 @@ Service Catalog → Get Catalog Variables → Create Record → Send Email → A
 
 ## Result
 The implemented workflow was tested with a submitted request, an approved database record and a completed Flow Designer test execution.
+
+## Visual Reference
+
+![Final Documentation Evidence](Images/Final_Documentation_Evidence.svg)
+
+*This diagram summarizes the evidence expected in the final report. Add real screenshots captured from your ServiceNow instance and actual test results; do not present conceptual diagrams as implementation screenshots.*
