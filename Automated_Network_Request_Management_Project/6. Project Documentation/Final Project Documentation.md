@@ -260,3 +260,9 @@ The next documentation improvement is to attach genuine screenshots from the Ser
 ![Final Documentation Evidence](Images/Final_Documentation_Evidence.svg)
 
 *This diagram summarizes the evidence expected in the final report. Add real screenshots captured from your ServiceNow instance and actual test results; do not present conceptual diagrams as implementation screenshots.*
+
+
+
+## Final Report Overview
+
+![Final project report overview](Images/Final_Report_Overview.svg)
