@@ -22,3 +22,11 @@ A ServiceNow catalog item that captures network requests, creates a database rec
 
 ## Final Decision
 Combine catalog submission, record creation, email notification, approval and update automation into one ServiceNow workflow.
+
+---
+
+## Visual Reference
+
+![Ideation Overview](Images/Ideation_Problem_Overview.svg)
+
+*Figure: Ideation Overview. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
