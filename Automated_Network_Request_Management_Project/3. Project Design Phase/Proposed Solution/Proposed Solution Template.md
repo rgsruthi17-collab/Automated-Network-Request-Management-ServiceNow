@@ -19,3 +19,9 @@ The complete process provides centralized, traceable and automated network reque
 ![Project Design Overview](../Images/Design_Overview.svg)
 
 *Conceptual design illustration, not a live ServiceNow screenshot. Confirm the final design against the implemented instance.*
+
+
+
+## Proposed Solution Visual
+
+![Proposed network request solution](Proposed_Solution.svg)
