@@ -12,3 +12,11 @@ Network service requests can be difficult to track when request details, approva
 
 ## Proposed Direction
 Use a ServiceNow Catalog Item and Flow Designer automation to standardize request capture, record creation, notification, approval and status update.
+
+---
+
+## Visual Reference
+
+![Ideation Overview](Images/Ideation_Problem_Overview.svg)
+
+*Figure: Ideation Overview. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
