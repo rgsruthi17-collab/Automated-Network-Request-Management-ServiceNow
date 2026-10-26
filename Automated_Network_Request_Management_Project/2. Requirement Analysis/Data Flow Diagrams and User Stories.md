@@ -12,3 +12,11 @@ Requester → Network Request Catalog Item → Get Catalog Variables → Databas
 
 ## Main Data
 Requested For, Mobile Number, Type of Connection, Existing ID, Total Amount, Mode of Payment and Address.
+
+---
+
+## Visual Reference
+
+![Requirement Analysis](Images/Requirements_User_Flow.svg)
+
+*Figure: Requirement Analysis. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
