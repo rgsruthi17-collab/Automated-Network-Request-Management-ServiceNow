@@ -22,3 +22,9 @@ A ServiceNow Catalog Item collects request details and Flow Designer automates r
 ![Project Design Overview](../Images/Design_Overview.svg)
 
 *Conceptual design illustration, not a live ServiceNow screenshot. Confirm the final design against the implemented instance.*
+
+
+
+## Problem–Solution Fit Visual
+
+![Problem solution fit canvas](Problem_Solution_Fit.svg)
