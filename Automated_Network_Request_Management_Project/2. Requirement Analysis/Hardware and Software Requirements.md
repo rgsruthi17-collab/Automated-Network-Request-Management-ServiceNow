@@ -11,3 +11,11 @@
 - GitHub for project documentation and version control.
 
 The implementation is primarily cloud-based through the ServiceNow PDI.
+
+---
+
+## Visual Reference
+
+![Requirement Analysis](Images/Requirements_User_Flow.svg)
+
+*Figure: Requirement Analysis. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
