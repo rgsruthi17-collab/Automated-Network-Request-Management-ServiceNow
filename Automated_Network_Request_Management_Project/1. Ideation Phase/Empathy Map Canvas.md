@@ -24,3 +24,11 @@ Manual follow-up, unclear approval status and repeated data entry.
 
 ## Gains
 Centralized request information, automated notification, approval tracking and faster administrative processing.
+
+---
+
+## Visual Reference
+
+![Ideation Overview](Images/Ideation_Problem_Overview.svg)
+
+*Figure: Ideation Overview. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
