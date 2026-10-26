@@ -253,3 +253,10 @@ The next documentation improvement is to attach genuine screenshots from the Ser
 - [Data Flow Diagrams and User Stories](../2.%20Requirement%20Analysis/Data%20Flow%20Diagrams%20and%20User%20Stories.md)
 - [Existing and Proposed System](../2.%20Requirement%20Analysis/Existing%20and%20Proposed%20System.md)
 - [Hardware and Software Requirements](../2.%20Requirement%20Analysis/Hardware%20and%20Software%20Requirements.md)
+
+
+## Visual Reference
+
+![Final Documentation Evidence](Images/Final_Documentation_Evidence.svg)
+
+*This diagram summarizes the evidence expected in the final report. Add real screenshots captured from your ServiceNow instance and actual test results; do not present conceptual diagrams as implementation screenshots.*
