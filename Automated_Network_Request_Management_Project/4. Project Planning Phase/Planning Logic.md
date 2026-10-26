@@ -19,3 +19,9 @@ Catalog submission → Get Catalog Variables → Create Record → Send Email �
 ![Project Planning Milestones](Images/Planning_Milestones.svg)
 
 *Conceptual phase illustration, not a live ServiceNow screenshot. Record actual test outcomes after running the tests in your instance.*
+
+
+
+## Project Plan Visual
+
+![Project plan and milestones](Images/Project_Plan.svg)
