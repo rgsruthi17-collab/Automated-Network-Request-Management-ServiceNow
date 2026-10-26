@@ -16,3 +16,10 @@ The proposed process provides consistent input, a database record, notification,
 ![Requirement Analysis](Images/Requirements_User_Flow.svg)
 
 *Figure: Requirement Analysis. This is a conceptual project diagram, not a screenshot of a live ServiceNow instance. Add authentic screenshots from the implemented application in the relevant section before final submission.*
+
+
+## Visual Reference
+
+![Requirements and User Flow](Images/Requirements_User_Flow.svg)
+
+*Conceptual phase illustration. Add genuine project evidence where required; this image is not a live ServiceNow screenshot.*
