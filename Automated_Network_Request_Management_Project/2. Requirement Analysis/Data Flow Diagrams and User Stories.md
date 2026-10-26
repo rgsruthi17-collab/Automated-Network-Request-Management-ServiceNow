@@ -27,3 +27,13 @@ Requested For, Mobile Number, Type of Connection, Existing ID, Total Amount, Mod
 ![Requirements and User Flow](Images/Requirements_User_Flow.svg)
 
 *Conceptual phase illustration. Add genuine project evidence where required; this image is not a live ServiceNow screenshot.*
+
+
+
+## Data Flow Diagram
+
+![Network request data flow diagram](Images/Data_Flow_Diagram.svg)
+
+## Technology Stack
+
+![ServiceNow technology stack](Images/Technology_Stack.svg)
