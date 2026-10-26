@@ -20,3 +20,9 @@ The implemented scenario was exercised using a real request and a Flow Designer 
 ![Development and Testing Evidence](../Images/Testing_Evidence_Flow.svg)
 
 *Conceptual phase illustration, not a live ServiceNow screenshot. Record actual test outcomes after running the tests in your instance.*
+
+
+
+## User Acceptance Testing Visual
+
+![User acceptance testing workflow](../Images/User_Acceptance_Testing.svg)
