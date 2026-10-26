@@ -36,3 +36,9 @@ If Request is Approved
 
 ## Data Storage
 The custom table stores request details and Approval Status, with a Database Number associated with the submitted request.
+
+## Visual Reference
+
+![Project Design Overview](../Images/Design_Overview.svg)
+
+*Conceptual design illustration, not a live ServiceNow screenshot. Confirm the final design against the implemented instance.*
