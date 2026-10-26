@@ -13,3 +13,9 @@ Flow Designer retrieves catalog variables, creates the custom database record, s
 
 ### Outcome
 The complete process provides centralized, traceable and automated network request management.
+
+## Visual Reference
+
+![Project Design Overview](../Images/Design_Overview.svg)
+
+*Conceptual design illustration, not a live ServiceNow screenshot. Confirm the final design against the implemented instance.*
