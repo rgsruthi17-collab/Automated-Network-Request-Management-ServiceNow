@@ -15,3 +15,9 @@ A Network Request Catalog Item was configured with request variables. A reusable
 
 ## Testing
 The implementation was validated through a real request and Flow Designer test execution.
+
+## Visual Reference
+
+![Final Documentation Evidence](Images/Final_Documentation_Evidence.svg)
+
+*This diagram summarizes the evidence expected in the final report. Add real screenshots captured from your ServiceNow instance and actual test results; do not present conceptual diagrams as implementation screenshots.*
