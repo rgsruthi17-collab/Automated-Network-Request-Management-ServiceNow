@@ -1,25 +1,41 @@
 # Data Flow Diagrams and User Stories
 
-## High-level data flow
+## Context-level data flow
 ```mermaid
-flowchart TD
- A[Employee opens Service Catalog] --> B[Enter network request details]
- B --> C[Submit catalog request]
- C --> D[Flow Designer reads variables]
- D --> E[Create custom table record]
- E --> F[Send notification]
- F --> G[Request approval]
- G --> H{Decision}
- H -->|Approved| I[Update record: Approved]
- H -->|Rejected| J[Update record: Rejected]
+flowchart LR
+  U[Requester] -->|Request details| C[Service Catalog item]
+  C -->|Submitted variables| F[Flow Designer]
+  F -->|Create or update| T[(Custom request table)]
+  F -->|Notification| E[Email]
+  F -->|Approval request| A[Approver]
+  A -->|Decision| F
+  F -->|Status update| T
 ```
 
+## Workflow data flow
+1. Requester opens the Network Request catalog item.
+2. Requester completes the required catalog variables and submits the item.
+3. Flow Designer retrieves the catalog variables.
+4. The flow creates a record in the custom request table.
+5. The flow sends an email notification.
+6. The flow requests approval and evaluates the response.
+7. The flow updates the stored approval status.
+
 ## User stories
-- As an employee, I want a guided catalog form so that I can submit complete request details.
-- As a requester, I want user information populated consistently to reduce re-entry.
-- As an approver, I want a notification and the ability to approve or reject.
-- As support staff, I want request data stored in a dedicated table.
-- As a process owner, I want the stored status updated automatically.
+| ID | As a... | I want... | So that... |
+|---|---|---|---|
+| US-01 | Requester | to submit a network request through the Service Portal | I have one standard entry point |
+| US-02 | Requester | to provide requester and connection details | the team receives complete information |
+| US-03 | Requester | to see Existing ID only when applicable | the form stays relevant |
+| US-04 | Support team | submitted details to be stored in a custom table | request information is traceable |
+| US-05 | Approver | to receive an approval request | I can review and decide |
+| US-06 | Requester/support team | to receive an email notification | stakeholders are informed |
+| US-07 | Support team | the approval decision to update the request record | the stored status reflects the decision |
 
 ## Acceptance criteria
-Submitted values are mapped correctly, the custom record is created, notification and approval steps run, and the final status matches the approval outcome.
+- The catalog item is available to the intended test user.
+- Required variables are captured and available to the flow.
+- The conditional field behaves according to its UI Policy condition.
+- A submitted request creates the expected custom-table record.
+- The flow executes the notification and approval actions.
+- The approval outcome is reflected in the stored record.

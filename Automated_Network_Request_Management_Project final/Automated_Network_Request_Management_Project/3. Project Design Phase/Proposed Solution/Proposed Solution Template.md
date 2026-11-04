@@ -1,25 +1,32 @@
 # Proposed Solution
 
-## Overview
-Use ServiceNow's native request and workflow capabilities to manage network-service requests from submission through approval.
+## Solution summary
+Create a Network Request item in the ServiceNow Service Catalog and connect it to a Flow Designer flow that manages the request's data and approval lifecycle.
 
-## Main components
-1. Service Catalog item with request variables.
-2. Reusable user-details variable set.
-3. Catalog UI Policy for conditional field visibility.
-4. Custom table for request details and status.
-5. Flow Designer for record creation, notification, approval, and update.
+## User journey
+1. User opens the Service Portal and selects Network Request.
+2. User enters Requested For, mobile number, connection type, applicable Existing ID, amount, payment mode, and address.
+3. Reusable user details are populated through the configured variable set.
+4. The Catalog UI Policy controls visibility of Existing ID based on the configured condition.
+5. User submits the request.
+6. Flow Designer retrieves the submitted catalog variables and creates a record in the custom table.
+7. The flow sends an email and asks for approval.
+8. The flow checks the approval result and updates the custom record.
 
-## Process
-```mermaid
-flowchart LR
- A[Catalog form] --> B[Submit]
- B --> C[Read variables]
- C --> D[Create custom record]
- D --> E[Notify]
- E --> F[Approval]
- F --> G[Update status]
-```
+## Main modules
+- Request form and catalog variables
+- User-details variable set
+- Conditional UI behavior
+- Custom request data table
+- Flow Designer automation
+- Email notification and approval handling
 
-## Expected outcome
-A consistent request lifecycle with less manual coordination and a persistent record of request and approval result.
+## Expected benefits
+- Consistent request information
+- Reduced repetitive data entry
+- Less manual coordination between request and approval steps
+- Centralized request data
+- Improved visibility of the approval outcome
+
+## Implementation boundary
+This solution automates the request workflow. It does not itself configure routers, switches, network access policies, or physical connectivity.

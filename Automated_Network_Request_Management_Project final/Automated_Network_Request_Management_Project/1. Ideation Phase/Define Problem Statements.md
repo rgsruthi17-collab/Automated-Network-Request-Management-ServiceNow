@@ -1,22 +1,26 @@
 # Define Problem Statements
 
-## Problem statement
-Network-service requests may arrive with inconsistent information and require manual validation, record creation, communication, and approval follow-up. This increases processing effort and makes request status harder to track.
+## Background
+Network connection requests require user information, connection details, and an approval decision. When these steps are handled manually or across disconnected channels, requests can be incomplete and difficult to track.
 
-## Target users
-- Employees submitting a network-service request
-- Approvers reviewing and deciding on requests
-- Service or network support staff processing requests
+## Primary problem statement
+How might we provide a centralized ServiceNow process through which users can submit complete network connection requests and authorized approvers can review them, while request data and approval status remain traceable?
 
-## Goals
-- Standardize request information through a Service Catalog item.
-- Display conditional fields only when needed.
-- Store request details in a dedicated table.
-- Automate notifications and approval routing.
-- Update stored approval status after a decision.
+## Supporting problem statements
+1. How can the form capture consistent requester and connection details?
+2. How can the form display only fields relevant to the selected connection type?
+3. How can submitted details be stored in a dedicated record?
+4. How can notifications and approval be initiated automatically?
+5. How can the final approval decision be reflected in the request record?
 
-## Success criteria
-A valid request can be submitted, a request record is created, the approver can make a decision, and the custom record reflects the resulting status.
+## Stakeholders
+- **Requester:** submits the network connection request and provides accurate details.
+- **Approver:** reviews the request and records an approval decision.
+- **Service/support team:** monitors and processes submitted requests.
+- **Platform administrator/developer:** configures catalog elements, data storage, and automation.
 
 ## Scope
-This project focuses on request intake and workflow automation in ServiceNow. External network provisioning integration is outside the current scope.
+The project covers request submission, data capture, conditional form behavior, custom record creation, email notification, approval, decision checking, and record update.
+
+## Out of scope
+Actual network-device provisioning, integration with external network hardware, production-grade identity governance, and enterprise-scale performance guarantees are not claimed by this project.

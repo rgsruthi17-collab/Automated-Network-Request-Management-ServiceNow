@@ -1,17 +1,32 @@
 # Empathy Map Canvas
 
-## User: Employee requesting a network service
+## Primary persona: Network service requester
 
-**Says:** “I need a clear form for submitting my request.” “I want to know whether my request has been approved.”
+| Dimension | User perspective |
+|---|---|
+| Says | “I need a network connection and want to know what information is required.” |
+| Thinks | “Has my request been submitted? Who needs to approve it?” |
+| Does | Opens the Service Portal, completes the catalog form, submits the request, and checks for updates. |
+| Feels | Wants the process to be simple, predictable, and transparent. |
 
-**Thinks:** What details are required? Will the request reach the correct approver? How can I avoid repeated follow-ups?
-
-**Does:** Opens the Service Portal, enters request details, submits the form, and waits for confirmation and a decision.
-
-**Feels:** Frustrated by unclear forms, uncertain when updates are delayed, and more confident when the process is standardized.
+## Needs
+- One clear place to submit a network request.
+- Simple fields with understandable labels.
+- Requester details that do not need to be repeatedly entered.
+- Conditional fields that appear only when applicable.
+- Confirmation and progress updates.
 
 ## Pain points
-Repeated data entry, incomplete submissions, manual notifications, and unclear approval status.
+- Unclear or incomplete request forms.
+- Repeated entry of the same personal details.
+- Uncertainty about approval progress.
+- Lack of a single record containing request information and status.
 
-## Opportunities
-Guided catalog variables, reusable user details, field visibility rules, automated record creation, email notifications, and approval-driven status updates.
+## Design opportunities
+- Use a Service Catalog item with structured variables.
+- Reuse user details through a variable set.
+- Use a Catalog UI Policy for conditional field visibility.
+- Automate notifications and approval with Flow Designer.
+- Store request details in a custom table for traceability.
+
+*Persona statements are design assumptions for the project and should be validated with actual users where possible.*

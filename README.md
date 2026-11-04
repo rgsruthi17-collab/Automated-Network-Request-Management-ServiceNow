@@ -1,75 +1,34 @@
 # Automated Network Request Management in ServiceNow
 
-## Project Overview
+A structured project repository for designing, configuring, testing, and documenting a network-service request workflow on the ServiceNow platform.
 
-**Automated Network Request Management in ServiceNow** is a ServiceNow-based project that automates the submission, validation, approval, notification, and database update of network connection requests.
+## Project at a glance
+The solution lets a user submit a network connection request through the Service Catalog. Catalog variables capture request details; a reusable user-details variable set supports consistent requester information; a Catalog UI Policy conditionally displays the Existing ID field; Flow Designer creates a record in a custom table, sends an email, requests approval, evaluates the decision, and updates the stored approval status.
 
-The solution uses a Service Catalog item, catalog variables, a reusable variable set, a UI Policy, a custom database table, and Flow Designer automation.
+## Main capabilities
+- Service Catalog item for network requests
+- Requester and contact details, connection type, existing ID, amount, payment mode, and address
+- Reusable user-details variable set with a user reference and auto-populated details
+- Conditional Existing ID field using a Catalog UI Policy
+- Custom table for request information
+- Flow Designer automation for record creation, email notification, approval, decision handling, and record update
 
-## Key Features
-
-- Network Request catalog item
-- Requested For, mobile number, connection type, existing ID, amount, payment mode, and address fields
-- Reusable user-details variable set with user reference and auto-populated details
-- Conditional display of Existing ID using a Catalog UI Policy
-- Custom database table for storing request information
-- Automated record creation through Flow Designer
-- Email notification step
-- Approval workflow
-- Automatic update of approval status after approval decision
-
-## Automation Flow
-
+## Workflow
 `Service Catalog Request → Get Catalog Variables → Create Record → Send Email → Ask for Approval → Check Approval → Update Record`
 
-## Technology
+## Project phases
+1. [Ideation Phase](1.%20Ideation%20Phase/README.md)
+2. [Requirement Analysis](2.%20Requirement%20Analysis/README.md)
+3. [Project Design Phase](3.%20Project%20Design%20Phase/README.md)
+4. [Project Planning Phase](4.%20Project%20Planning%20Phase/README.md)
+5. [Project Development Phase](5.%20Project%20Development%20Phase/README.md)
+6. [Project Documentation](6.%20Project%20Documentation/README.md)
 
-- ServiceNow Service Catalog
-- ServiceNow Flow Designer
-- ServiceNow custom tables
-- Catalog UI Policies and Variables
-- ServiceNow Approvals and Notifications
+## Platform and tools
+ServiceNow Service Catalog, catalog variables and variable sets, Catalog UI Policies, custom tables, Flow Designer, approvals, and notifications.
 
-## Project Documentation
+## Validation status
+The project notes record a test request submitted through the ServiceNow Service Portal. A Request and Requested Item were generated, the approval was completed, a custom database record was created, and the Flow Designer test execution completed successfully. Detailed test scenarios and evidence checklist are maintained in Phase 5 and Phase 6.
 
-1. [Ideation Phase](Automated_Network_Request_Management_Project/1.%20Ideation%20Phase/README.md)
-2. [Requirement Analysis](Automated_Network_Request_Management_Project/2.%20Requirement%20Analysis/README.md)
-3. [Project Design Phase](Automated_Network_Request_Management_Project/3.%20Project%20Design%20Phase/README.md)
-4. [Project Planning Phase](Automated_Network_Request_Management_Project/4.%20Project%20Planning%20Phase/README.md)
-5. [Project Development Phase](Automated_Network_Request_Management_Project/5.%20Project%20Development%20Phase/README.md)
-6. [Project Documentation](Automated_Network_Request_Management_Project/6.%20Project%20Documentation/README.md)
-
-## Testing
-
-A test request was submitted through the ServiceNow Service Portal. The request generated a Request and Requested Item, the approval was completed, the custom database record was created, and the Flow Designer test execution completed successfully.
-
-## Conclusion
-
-The project demonstrates how ServiceNow can automate a network-service request lifecycle and reduce manual processing by combining Service Catalog, conditional form behavior, centralized data storage, notifications, approvals, and Flow Designer automation.
-
-
-
-## Visual Project Gallery
-
-### Ideation
-![Brainstorming and prioritization](Automated_Network_Request_Management_Project/1.%20Ideation%20Phase/Images/Brainstorming_Prioritization.svg)
-
-![Empathy map canvas](Automated_Network_Request_Management_Project/1.%20Ideation%20Phase/Images/Empathy_Map_Canvas.svg)
-
-### Requirements
-![Network request data flow](Automated_Network_Request_Management_Project/2.%20Requirement%20Analysis/Images/Data_Flow_Diagram.svg)
-
-![Technology stack](Automated_Network_Request_Management_Project/2.%20Requirement%20Analysis/Images/Technology_Stack.svg)
-
-### Design, planning and testing
-![Problem solution fit](Automated_Network_Request_Management_Project/3.%20Project%20Design%20Phase/Problem%20-%20Solution%20Fit/Problem_Solution_Fit.svg)
-
-![Proposed solution](Automated_Network_Request_Management_Project/3.%20Project%20Design%20Phase/Proposed%20Solution/Proposed_Solution.svg)
-
-![Project plan](Automated_Network_Request_Management_Project/4.%20Project%20Planning%20Phase/Images/Project_Plan.svg)
-
-![Functional test matrix](Automated_Network_Request_Management_Project/5.%20Project%20Development%20Phase/Images/Functional_Test_Matrix.svg)
-
-![User acceptance testing](Automated_Network_Request_Management_Project/5.%20Project%20Development%20Phase/Images/User_Acceptance_Testing.svg)
-
-![Final report overview](Automated_Network_Request_Management_Project/6.%20Project%20Documentation/Images/Final_Report_Overview.svg)
+## Repository guide
+All project documents are in the six numbered phase folders. Replace any illustrative or pending evidence with screenshots and outputs from your own ServiceNow instance before final submission.

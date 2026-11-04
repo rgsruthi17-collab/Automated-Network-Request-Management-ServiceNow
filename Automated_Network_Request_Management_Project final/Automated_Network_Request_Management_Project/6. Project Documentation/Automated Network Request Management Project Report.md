@@ -1,19 +1,31 @@
 # Automated Network Request Management Project Report
 
 ## 1. Introduction
-Network-service requests need consistent information, processing ownership, and a clear approval path. Manual handling can cause delays and inconsistent records.
+Organizations need a reliable way to receive and process internal network-service requests. This project uses ServiceNow to structure request intake and automate key workflow steps.
 
-## 2. Proposed approach
-A Service Catalog item centralizes intake. Flow Designer creates a custom record, sends a notification, requests approval, evaluates the decision, and updates status.
+## 2. Problem definition
+Unstructured request information, repeated data entry, manual notifications, and disconnected approval tracking can slow processing and make request status difficult to follow.
 
-## 3. Implementation
-The solution uses catalog variables, a reusable variable set, a Catalog UI Policy, a custom table, and Flow Designer actions. Configuration should match the target ServiceNow instance.
+## 3. Objectives
+Create a standard request form, capture requester and connection details, store submitted information, initiate notification and approval, and update the request record after the decision.
 
-## 4. Validation
-Test field visibility, required fields, variable mapping, record creation, notifications, approval, rejection, and final status updates. Attach genuine screenshots and execution evidence when available.
+## 4. Proposed system
+A Service Catalog item is the user entry point. Catalog variables and a reusable user-details variable set collect information. A Catalog UI Policy conditionally displays Existing ID. Flow Designer handles data retrieval, custom record creation, email notification, approval, decision checking, and record update.
 
-## 5. Outcome
-The workflow provides a structured request lifecycle and improves traceability through persistent request data and automated status updates.
+## 5. Implementation components
+- Network Request catalog item
+- Requested For, mobile number, connection type, Existing ID, amount, payment mode, and address
+- Reusable user-details variable set
+- Catalog UI Policy
+- Custom database table
+- Flow Designer
+- Approval and email notification steps
 
-## 6. Future enhancements
-Possible extensions include dashboards, SLA tracking, escalation, richer error handling, and integration with network provisioning tools.
+## 6. Testing
+The project notes report a test submission that generated a Request and Requested Item, completed the approval, created the custom database record, and completed the Flow Designer test execution. Refer to the testing phase for test cases and add the actual screenshots and execution details from the instance.
+
+## 7. Conclusion
+The solution demonstrates how native ServiceNow components can be combined to automate a network request lifecycle and improve consistency and traceability.
+
+## 8. Future scope
+Reporting, additional exception handling, expanded UAT, and integration with actual network provisioning systems may be considered as future work.

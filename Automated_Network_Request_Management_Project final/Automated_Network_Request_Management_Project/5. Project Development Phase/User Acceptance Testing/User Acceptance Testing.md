@@ -1,23 +1,32 @@
 # User Acceptance Testing
 
 ## Objective
-Confirm that the end-to-end request experience meets employee, approver, and support-team needs.
+Confirm that the request process is understandable and supports the needs of requesters, approvers, and the support team.
 
-## Scenarios
-1. Employee opens the Service Portal and finds the network request item.
-2. Employee enters valid details and submits.
-3. Submitted data is stored in the expected records.
-4. The configured notification step runs.
-5. An approver approves a request and the custom record is updated.
-6. A separate request is rejected and the custom record reflects rejection.
+## UAT scenarios
+| UAT ID | User role | Scenario | Acceptance condition |
+|---|---|---|---|
+| UAT-01 | Requester | Open and complete the Network Request item | Form is understandable and accepts the required information |
+| UAT-02 | Requester | Use requester details variable set | User details are populated as configured |
+| UAT-03 | Requester | Choose a connection type | Existing ID visibility follows the UI Policy |
+| UAT-04 | Requester | Submit a valid request | Submission creates a Request and Requested Item |
+| UAT-05 | Approver | Review the approval request | Approver can see and decide on the request |
+| UAT-06 | Support team | Inspect the custom request record | Submitted values are available and readable |
+| UAT-07 | Support team | Review the final approval status | Record reflects the approval outcome |
 
-## Acceptance checklist
-- [ ] Form is understandable and fields are clearly labelled.
-- [ ] Conditional fields behave as intended.
-- [ ] Values map to the correct fields.
-- [ ] Notifications and approvals execute for the correct request.
-- [ ] Both approval and rejection outcomes are handled.
-- [ ] No unexpected duplicate records are created.
-- [ ] Flow execution details show no unhandled errors.
+## UAT execution record
+| UAT ID | Tester | Actual outcome | Status | Comments |
+|---|---|---|---|---|
+| UAT-01 | To be filled | To be filled | Pending | Add evidence |
+| UAT-04 | To be filled | To be filled | Pending | Add evidence |
+| UAT-05 | To be filled | To be filled | Pending | Add evidence |
+| UAT-06 | To be filled | To be filled | Pending | Add evidence |
+| UAT-07 | To be filled | To be filled | Pending | Add evidence |
 
-Record tester, date, actual result, pass/fail status, and defects for each scenario.
+## Sign-off
+- Business/requester representative: ____________________
+- Approver representative: ____________________
+- Project team: ____________________
+- UAT completion date: ____________________
+
+Do not mark a scenario as passed until it has been executed by the relevant user role in the ServiceNow instance.
